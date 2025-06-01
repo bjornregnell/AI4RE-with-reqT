@@ -1,2 +1,5 @@
 # AI4RE-with-reqT
-Talk at SiREN 2025: "Improving AI-supported RE effectiveness by annotating natural language requirements with essential RE keywords"
+* [Slides](https://github.com/bjornregnell/AI4RE-with-reqT/releases/latest/download/out.pdf) for a talk given by Björn Regnell at SiREN 2025.
+
+* Title: 
+  * "Improving AI-supported requirements engineering effectiveness by annotating natural language requirements with essential requirements engineering keywords"
