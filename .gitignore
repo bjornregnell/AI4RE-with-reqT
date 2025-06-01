@@ -3,7 +3,6 @@
 *.log
 *.tmp
 *.out
-*.pdf
 *.jar
 
 # VS Code
