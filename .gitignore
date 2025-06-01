@@ -31,3 +31,11 @@ target/
 # Other
 *.swp
 *~
+
+#tex 
+**/*.aux
+**/*.bbl
+**/*.blg
+**/*.fls
+**/*.synctex.gz
+**/*.fdb_latexmk
