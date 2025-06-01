@@ -1,0 +1,33 @@
+# Scala
+*.class
+*.log
+*.tmp
+*.out
+*.pdf
+*.jar
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# sbt
+project/target/
+target/
+.cache/
+.history/
+.ensime_cache/
+.idea/
+
+# Metals
+.metals/
+.bloop/
+.ammonite/
+.bsp/
+.scala-build/
+
+# Other
+*.swp
+*~
