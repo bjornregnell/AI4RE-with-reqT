@@ -41,29 +41,35 @@ def slides = document("Improving AI-supported requirements engineering effective
         * Why: First step to get started.
       """)
 
-  frame("reqT entities, attributes, relations"):
-    p("A reqT model includes:")
+  frame("reqT concepts"):
+    def small = s"{}\\fontsize{9}{11}\\selectfont{} "
+
     itemize: 
-      p("**Entities** that have identity (a meaningful name)")
+      p("**Entities** that have identity (a meaningful, unique name)")
+
       itemize:
-        p("Feature, Function, Goal, Product, Stakeholder, UseCase, ...")
+        p(s"$small Actor, App, Barrier, Breakpoint, Class, Component, Configuration, Data, Design, Domain, Epic, Event, Feature, Field, Function, Goal, Idea, Image, Interface, Issue, Item, Label, Member, Module, Product, Prototype, Quality, Relationship, Release, Req, Resource, Risk, Scenario, Screen, Section, Service, Stakeholder, State, Story, System, Target, Task, Term, Test, UseCase, User, Variant, VariationPoint, WorkPackage")
+
       p("**Attributes** that represent values (strings or integers)")
       itemize:
-        p("Example, Benefit, Cost, Input, Output, Prio, Spec, Why, ...")
+        p(s"$small Benefit, Capacity, Comment, Constraints, Cost, Damage, Deprecated, Example, Expectation, Failure, Frequency, Gist, Input, Location, Max, Min, Order, Output, Prio, Probability, Profit, Spec, Text, Title, Value, Why")
 
       p("**Relations** that connect entities with entities and attributes")
 
       itemize:
-        p("has, helps, hurts, relatesTo, requires, ...")
+        p(s" $small binds, deprecates, excludes, has, helps, hurts, impacts, implements, interactsWith, is, precedes, relatesTo, requires, verifies")
 
 
   frame("reqT metamodel"):
-    
-    image("../img/metamodel.pdf", width = 0.65)
+    image("../img/metamodel.pdf", width = 0.6)
 
-    p(" .")
+  frame("reqT metamodel"):
+    image("../img/metamodel-all.pdf", width = 0.95)
 
   frame("Questions to discuss"):
-    itemize:
-      p("What reqT entities and relations do you think would be benefical to include in as context for AI-supported RE?")
-      p("How would you design a study to evaluate the effectiveness of AI-supported RE with reqT?")
+    enumerate:
+      p("What reqT concepts do you think would be benefical to include as general context for AI-supported RE?")
+      p("How would you design a study to evaluate the effectiveness and efficiency of AI-supported RE with reqT?")
+    
+    p("~\\pause{}")
+    image("../img/design-science.png", width = 0.62)
