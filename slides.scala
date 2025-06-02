@@ -68,9 +68,9 @@ def slides = document("Improving AI-supported requirements engineering effective
 
   frame("Questions to discuss"):
     enumerate:
-      p("Which reqT concepts with definitions do you think would be benefical to include as general context for AI-supported RE?")
+      p("Which reqT concepts + definitions would be beneficial to include in the context of an LLM in AI-supported RE?")
       itemize:
-        p("All? Only some? Missing concepts?")
+        p("https://github.com/bjornregnell/AI4RE-with-reqT/tree/main/survey ~\\pause{} ")
       p("How would you design a study to evaluate the effectiveness and efficiency of AI-supported RE with reqT?")
     
     p("~\\pause{}")
