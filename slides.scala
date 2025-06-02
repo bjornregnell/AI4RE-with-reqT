@@ -68,8 +68,10 @@ def slides = document("Improving AI-supported requirements engineering effective
 
   frame("Questions to discuss"):
     enumerate:
-      p("What reqT concepts do you think would be benefical to include as general context for AI-supported RE?")
+      p("Which reqT concepts with definitions do you think would be benefical to include as general context for AI-supported RE?")
+      itemize:
+        p("All? Only some? Missing concepts?")
       p("How would you design a study to evaluate the effectiveness and efficiency of AI-supported RE with reqT?")
     
     p("~\\pause{}")
-    image("../img/design-science.png", width = 0.62)
+    image("../img/design-science.png", width = 0.55)
