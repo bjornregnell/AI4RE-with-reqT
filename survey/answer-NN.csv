@@ -1,0 +1,50 @@
+entity type	helps/hurts (1/0)	description
+Actor		A role played by a user or external system that interacts with the system (product, app, or service) under development.
+App		A computer program, or group of programs designed for end users, normally with a graphical user interface. Short for application.
+Barrier		Something that makes it difficult to achieve a goal or a higher quality level.
+Breakpoint		A point of change, representing an important shift in the relation between quality and benefit.
+Class		An extensible template for creating objects. A set of objects with certain attributes in common. A category.
+Component		A composable part of a system architecture. A reusable, interchangeable system unit or functionality.
+Configuration		A specific combination of variants.
+Data		A data entity, type, class, or record stored or processed by a system.
+Design		A specific realization. A description of an implementation.
+Domain		The application area of a product with its surrounding entities, e.g. users or other systems.
+Epic		A coherent collection of features, stories, use cases or issues. A large part of a release.
+Event		Something that can happen in the domain or in the system.
+Feature		A releasable characteristic of a product. A high+AC0-level, coherent bundle of requirements.
+Field		A data attribute that is part of another entity, such as a class.
+Function		A description of how input is mapped to output. A capability of a system to do something specific.
+Goal		An intention of a stakeholder or desired system property.
+Idea		A concept or thought, potentially interesting.
+Image		A visual representation, picture or diagram.
+Interface		A way to interact with a system.
+Issue		Something to be fixed or work to do.
+Item		An article in a collection, enumeration, or series.
+Label		A descriptive tag used to classify something.
+Member		A data entity that is part of another entity. More specific alternatives: field, function.
+Module		A collection of coherent functions and interfaces.
+Product		An artifact offered to users or customers, e.g. an app, service or  embedded system.
+Prototype		A mockup or system with limited functionality to demonstrate a design idea.
+Quality		An aspect of system quality, distinguishing characteristic or degree of goodness.
+Relationship		A specific way that data types are connected.
+Release		A specific version of a product offered to end users at a specific time.
+Req		Something needed or wanted. An abstract term denoting any type of information relevant to the (specification of) intentions behind system development. Short for requirement.
+Resource		A capability of, or support for product development, e.g. a development team or some testing equipment.
+Risk		Something negative that may happen.
+Scenario		A narrative of foreseeable interactions of user roles (actors) and the system (product, app, or service) under development..
+Screen		A design of (a part of) a user interface.
+Section		A part of a requirements document.
+Service		System use that provides value to stakeholders. System actions that stakeholders are willing to pay for.
+Stakeholder		A role, person or legal entity with a stake in the development or operation of a product.
+State		A mode or condition of something in the domain or in the system. A configuration of data.
+Story		A description of what a user wants in order to achieve a goal. Short for user story.
+System		A set of software or hardware components interacting with users or systems.
+Target		A desired quality level or quality goal.
+Task		A piece of work by users, potentially supported by a system. Short for user task
+Term		A word or group of words having a particular meaning in a particular domain.
+Test		A procedure to check if requirements are met.
+UseCase		A goal+AC0-fulfilling interaction between users and a product in a specific usage context.
+User		A human interacting with a system.
+Variant		An object or system property that can be chosen from a set of options.
+VariationPoint		An opportunity of choice among variants.
+WorkPackage		A coherent collection of (development) activities.
